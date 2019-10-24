@@ -1,0 +1,25 @@
+{
+  "name": "thai-cut-slim",
+  "version": "1.0.0",
+  "description": "word tokenization for thai language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comdevx/thai-cut-slim.git"
+  },
+  "keywords": [
+    "wordcut",
+    "thaicut",
+    "ตัดคำ",
+    "ไทย"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comdevx/thai-cut-slim/issues"
+  },
+  "homepage": "https://github.com/comdevx/thai-cut-slim#readme"
+}
