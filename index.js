@@ -13,7 +13,11 @@ require.extensions['.txt'] = function (module, filename) {
 let d = require("./dict.txt")
 d = d.split('\n')
 
-module.exports = (w) => {
+exports.addon = (l) => {
+    d = d.concat(l)
+}
+
+exports.cut = (w) => {
 
     const arr = []
 

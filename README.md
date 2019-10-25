@@ -12,9 +12,19 @@ npm i -s thai-cut-slim
 ## Usage
 
 ```nodejs
-const cut = require('thai-cut-slim')
+const thaiCut = require('thai-cut-slim')
 
-cut('ทดสอบระบบตัดคำ') # returns ['ทดสอบ','ระบบ','ตัด','คำ']
+thaiCut.cut('ทดสอบระบบตัดคำ') # returns ['ทดสอบ','ระบบ','ตัด','คำ']
+```
+
+## Usage addon
+
+```nodejs
+const thaiCut = require('thai-cut-slim')
+
+thaiCut.addon(['โห', 'อิอิ'])
+
+thaiCut.cut('ทดสอบเพิ่มคำที่ไม่มีในดิกชันนารี่ เช่น โห อิอิ') # returns [ 'ทดสอบ', 'เพิ่ม', 'คำ', 'ที่', 'ไม่มี', 'ใน', 'ดิกชันนารี', 'เช่น', 'โห', 'อิอิ' ]
 ```
 
 ## Contributing
